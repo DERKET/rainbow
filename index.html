@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="LoadCookies()">
+
+
+    <div class="title">
+        <h1>Welcome on the  SportApp Web-Site</h1>
+    </div>
+
+    <div class="options">
+        Here you can calculate your exercises
+    </div>
+
+
+    <form>
+        <input type="text" placeholder="Name" id="fName" />
+        <input type="text" placeholder="Password" id="fPassword" />
+        <input type="button" placeholder="Log in" value="Log in" onclick="CheckClient()" />
+        <input type="button" placeholder="Log out" value="Log out" onclick="ClearClientLoginData()" />
+    </form>
+    <form>
+        <input type="text" placeholder="Exercise" id="fExercise" />
+        <input type="text" placeholder="How long" id="fHowLong" />
+        <input type="text" placeholder="Kcal" id="fKcal" />
+        <input type="button" value="Сохранить" onclick="SaveExericeData()" />
+    </form>
+
+
+    <div class="AllExr">
+        <div class="deadLift">
+            <p class="Exercise-Cards">
+                The deadlift is a basic multi-joint exercise usually performed with a barbell (as well as with a dumbbell or a weight) held with both hands.
+            </p>
+        </div>
+
+        <div class="benchPress">
+            <p class="Exercise-Cards">
+                The bench press is a basic physical exercise with free weights. The performer lies down on a bench, lowers the barbell until it touches the chest and raises it back up
+            </p>
+        </div>
+
+        <div class="bicepsСurl">
+            <p class="Exercise-Cards">
+                The biceps barbell lift is the main exercise to increase biceps mass, which also involves the muscles of the forearm (brachial) and wrist joints
+            </p>
+        </div>
+
+
+        <div class="OverheadBarbellPress">
+            <p class="Exercise-Cards">
+                The overhead press can be performed as a basic multi-joint exercise to focus on the delts, which works the shoulder and elbow joints
+            </p>
+        </div>
+
+
+        <div class="pull-ups">
+            <p class="Exercise-Cards">
+            Pull-ups is a basic physical exercise that develops the muscle groups of the upper body: the broad leg, biceps, brachialis, and forearms. It is performed in a hanging position.
+         </p>
+        </div>
+
+   </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\bin\TypeScriptHTMLApp1.dll
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\bin\TypeScriptHTMLApp1.pdb
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\obj\Debug\NewAdaotiveProject.csproj.AssemblyReference.cache
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\obj\Debug\NewAdaotiveProject.csproj.CoreCompileInputs.cache
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\КОМП\source\repos\NewAdaotiveProject\NewAdaotiveProject\obj\Debug\TypeScriptHTMLApp1.pdb

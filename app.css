@@ -1,0 +1,138 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.title {
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    background: url("img/Снимок.PNG");
+    opacity: .9;
+    border-radius: 45px;
+    margin: 10px;
+    margin-left: 400px;
+    box-shadow: 10px 5px 5px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color:royalblue;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+
+
+
+body {
+ 
+    height: 100vh;
+    width: 100vh;
+    --x: calc(var(--posX, 0) * 1px);
+    --y: calc(var(--posY, 0) * 1px);
+    background-image: linear-gradient(115deg, rgb(211 255 215), rgb(0 0 0)), radial-gradient( 90% 100% at calc( 50% + var(--x)) calc( 0% + var(--y)), rgb(200 200 200), rgb(022 000 045)), radial-gradient(100% 100% at calc( 80% - var(--x)) calc( 0% - var(--y)), rgb(250 255 000), rgb(036 000 000)), radial-gradient(150% 210% at calc(100% + var(--x)) calc( 0% + var(--y)), rgb(020 175 125), rgb(000 010 255)), radial-gradient(100% 100% at calc(100% - var(--x)) calc(30% - var(--y)), rgb(255 077 000), rgb(000 200 255)), linear-gradient(60deg, rgb(255 000 000), rgb(120 086 255));
+    background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+    background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+    
+}
+
+
+input {
+    border-radius: 25px;
+    height: 20px;
+   
+}
+
+.options {
+    font-size: 35px;
+    margin: 25px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+form {
+    margin: 6px;
+}
+
+value {
+    height: 19px;
+}
+
+
+
+
+.deadLift {
+    background: url("img/romanian-male-1-300x300.jpg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 15px;
+}
+
+.Exercise-Cards {
+    color: navajowhite;
+    padding-top: 40px;
+    font-weight: 700;
+    
+}
+
+.benchPress {
+    background: url("img/benchpress.jpeg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 30px;
+}
+
+.bicepsСurl {
+    background: url("img/biceps.jpg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 30px;
+}
+
+.OverheadBarbellPress {
+    background: url("img/mini.jpg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 30px;
+}
+
+.pull-ups {
+    background: url("img/podtyag.jpg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 30px;
+}
+
+.AllExr {
+    display: flex;
+    width: 1920px;
+    margin-left: 80px;
+    margin-right: auto;
+}
